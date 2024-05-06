@@ -10,12 +10,15 @@
 	--WengeBrown: hsl(30, 10%, 34%);
 	--DarkCharcoal: hsl(24, 5%, 18%);
 	font-size: 16px;
+	color: var(--WengeBrown);
 }
 
 p {
 	font-family: 'Outfit', Sans-Serif;
-	font-size: 0.75rem;
+	font-size: 1.1rem;
+	font-weight: 500;
 	color: var(--WengeBrown);
+	margin: 1em 0em 1em 0em;
 }
 
 h1,
@@ -24,12 +27,14 @@ h2 {
 }
 
 h1 {
-	font-size: 1.8rem;
+	font-size: 2.5rem;
 	font-weight: 500;
+	line-height: 2.5rem;
+	color: var(--DarkCharcoal);
 }
 
 h2 {
-	font-size: 1rem;
+	font-size: 1.25rem;
 	font-weight: 500;
 	color: var(--Nutmeg);
 	margin-bottom: 0.75em;
@@ -42,19 +47,19 @@ hr {
 }
 li,
 td {
-	font-size: 0.75rem;
+	font-size: 1rem;
 }
 
 .prepBox {
 	background-color: var(--RoseWhite);
 	margin: 1em 0em 1em 0em;
-	padding: 1em;
+	padding: 1.5em;
 }
 
 .prepBox P {
 	color: var(--DarkRaspberry);
 	font-weight: 700;
-	font-size: 0.8rem;
+	font-size: 1.5rem;
 }
 
 .prepBox ul {
@@ -89,7 +94,7 @@ body {
 
 .container {
 	background-color: var(--White);
-	padding: 2em;
+	padding: 2.75em;
 	display: flex;
 	flex-direction: column;
 	height: 100%;
