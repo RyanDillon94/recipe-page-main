@@ -14,10 +14,34 @@
 
 p {
   font-family: 'Outfit', Sans-Serif;
+  font-size: .75rem;
 }
 
 h1, h2 {
   font-family: 'Young Serif', Sans-Serif;
+}
+
+h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--Nutmeg);
+}
+
+li, td {
+  font-size: .75rem;
+}
+
+.prepBox {
+  background-color: var(--RoseWhite);
+}
+
+.prepBox P {
+    color: var(--DarkRaspberry);
 }
 
 * {
@@ -30,6 +54,13 @@ body {
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
+	background-color: var(--Eggshell);
+}
+
+.container {
+  margin: 2em;
+  background-color: var(--White);
+  padding: 2em;
 }
 /*
 Footer items 
