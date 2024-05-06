@@ -82,6 +82,14 @@ ul {
 	color: var(--DarkRaspberry);
 }
 
+.Ingredients li::marker {
+  color: var(--Nutmeg);
+}
+
+.Instructions li::marker {
+  color: var(--Nutmeg);
+  font-weight: 700;
+}
 span {
 	font-weight: 700;
 }
