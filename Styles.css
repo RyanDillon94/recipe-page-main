@@ -13,62 +13,65 @@
 }
 
 p {
-  font-family: 'Outfit', Sans-Serif;
-  font-size: .75rem;
+	font-family: 'Outfit', Sans-Serif;
+	font-size: 0.75rem;
+	color: var(--WengeBrown);
 }
 
-h1, h2 {
-  font-family: 'Young Serif', Sans-Serif;
+h1,
+h2 {
+	font-family: 'Young Serif', Sans-Serif;
 }
 
 h1 {
-  font-size: 1.8rem;
-  font-weight: 500;
+	font-size: 1.8rem;
+	font-weight: 500;
 }
 
 h2 {
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--Nutmeg);
-  margin-bottom: .75em;
+	font-size: 1rem;
+	font-weight: 500;
+	color: var(--Nutmeg);
+	margin-bottom: 0.75em;
 }
 
 hr {
-  margin: 1em 0em 1em 0em;
-  border: 1px solid var(--LightGrey);
-  opacity: .5;
+	margin: 1em 0em 1em 0em;
+	border: 1px solid var(--LightGrey);
+	opacity: 0.5;
 }
-li, td {
-  font-size: .75rem;
+li,
+td {
+	font-size: 0.75rem;
 }
 
 .prepBox {
-  background-color: var(--RoseWhite);
-  margin: 1em 0em 1em 0em;
-  padding: 1em;
+	background-color: var(--RoseWhite);
+	margin: 1em 0em 1em 0em;
+	padding: 1em;
 }
 
 .prepBox P {
-    color: var(--DarkRaspberry);
-    font-weight: 700;
-    font-size: .8rem;
+	color: var(--DarkRaspberry);
+	font-weight: 700;
+	font-size: 0.8rem;
 }
 
 .prepBox ul {
-  margin-left: 1em;
+	margin-left: 1em;
 }
 
 .prepBox li {
-  margin: .5em;
-  padding-left: 1em;
+	margin: 0.5em;
+	padding-left: 1em;
 }
 
 .prepBox li::marker {
-  color: var(--DarkRaspberry);
+	color: var(--DarkRaspberry);
 }
 
 span {
-  font-weight: 700;
+	font-weight: 700;
 }
 * {
 	box-sizing: border-box;
@@ -81,17 +84,27 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--Eggshell);
-  font-family: 'Outfit', Sans-Serif;
+	font-family: 'Outfit', Sans-Serif;
 }
 
 .container {
-  margin: 2em;
-  background-color: var(--White);
-  padding: 2em;
+	background-color: var(--White);
+	padding: 2em;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+img {
+  width: 100%;
 }
 /*
 Footer items 
 */
+
+#Footer P {
+  color: var(--White);
+}
 .attribution {
 	margin-top: auto;
 	position: fixed;
