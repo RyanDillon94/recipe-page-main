@@ -38,12 +38,27 @@ li, td {
 
 .prepBox {
   background-color: var(--RoseWhite);
+  margin: 1em 0em 1em 0em;
+  padding: 1em;
 }
 
 .prepBox P {
     color: var(--DarkRaspberry);
+    font-weight: 600;
 }
 
+.prepBox ul {
+  margin-left: 1em;
+}
+
+.prepBox li {
+  margin: .5em;
+  padding-left: 1em;
+}
+
+.prepBox li::marker {
+  color: var(--DarkRaspberry);
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
