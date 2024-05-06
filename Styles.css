@@ -34,7 +34,7 @@ h1 {
 }
 
 h2 {
-	font-size: 1.25rem;
+	font-size: 2rem;
 	font-weight: 500;
 	color: var(--Nutmeg);
 	margin-bottom: 0.75em;
@@ -53,22 +53,29 @@ td {
 .prepBox {
 	background-color: var(--RoseWhite);
 	margin: 1em 0em 1em 0em;
-	padding: 1.5em;
+	padding-left: 1.5em;
+	padding-bottom: 1em;
+	border-radius: 10px;
 }
 
 .prepBox P {
 	color: var(--DarkRaspberry);
 	font-weight: 700;
 	font-size: 1.5rem;
+	padding-top: 1em;
 }
 
-.prepBox ul {
+ol,
+ul {
 	margin-left: 1em;
+	margin-right: 2em;
 }
 
 .prepBox li {
-	margin: 0.5em;
-	padding-left: 1em;
+	margin: 1em;
+	padding-left: 2em;
+	font-size: 1.1rem;
+	font-weight: 500;
 }
 
 .prepBox li::marker {
@@ -101,33 +108,30 @@ body {
 }
 
 img {
-  width: 100%;
+	width: 100%;
 }
 /*
 Footer items 
 */
 
 #Footer P {
-  color: var(--White);
-}
-.attribution {
-	margin-top: auto;
-	position: fixed;
-	bottom: 0;
-	width: 100%;
+	color: var(--White);
 	font-size: 14px;
-	text-align: center;
 	font-weight: 700;
-	color: white;
-	background-color: black;
-	padding: 5px;
 }
 
-.attribution a {
+Footer {
+	margin-top: auto;
+	width: 100%;
+	text-align: center;
+	background-color: black;
+}
+
+Footer a {
 	color: #00ff00;
 	text-decoration: none;
 }
 
-.attribution a:hover {
+Footer a:hover {
 	color: #ff9c6c;
 }
