@@ -33,6 +33,11 @@ h2 {
   margin-bottom: .75em;
 }
 
+hr {
+  margin: 1em 0em 1em 0em;
+  border: 1px solid var(--LightGrey);
+  opacity: .5;
+}
 li, td {
   font-size: .75rem;
 }
