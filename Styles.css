@@ -44,7 +44,8 @@ li, td {
 
 .prepBox P {
     color: var(--DarkRaspberry);
-    font-weight: 600;
+    font-weight: 700;
+    font-size: .8rem;
 }
 
 .prepBox ul {
@@ -59,6 +60,10 @@ li, td {
 .prepBox li::marker {
   color: var(--DarkRaspberry);
 }
+
+span {
+  font-weight: 700;
+}
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -70,6 +75,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: var(--Eggshell);
+  font-family: 'Outfit', Sans-Serif;
 }
 
 .container {
