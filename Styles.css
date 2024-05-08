@@ -1,87 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
 
 :root {
-	--Nutmeg: hsl(14, 45%, 36%);
-	--DarkRaspberry: hsl(332, 51%, 32%);
-	--White: hsl(0, 0%, 100%);
-	--RoseWhite: hsl(330, 100%, 98%);
-	--Eggshell: hsl(30, 54%, 90%);
-	--LightGrey: hsl(30, 18%, 87%);
-	--WengeBrown: hsl(30, 10%, 34%);
-	--DarkCharcoal: hsl(24, 5%, 18%);
-	font-size: 16px;
-	color: var(--WengeBrown);
+  --Nutmeg: hsl(14, 45%, 36%);
+  --DarkRaspberry: hsl(332, 51%, 32%);
+  --White: hsl(0, 0%, 100%);
+  --RoseWhite: hsl(330, 100%, 98%);
+  --Eggshell: hsl(30, 54%, 90%);
+  --LightGrey: hsl(30, 18%, 87%);
+  --WengeBrown: hsl(30, 10%, 34%);
+  --DarkCharcoal: hsl(24, 5%, 18%);
+  font-size: 16px;
+  color: var(--WengeBrown);
 }
 
 p {
-	font-family: 'Outfit', Sans-Serif;
-	font-size: 1.1rem;
-	font-weight: 500;
-	color: var(--WengeBrown);
-	margin: 1em 0em 1em 0em;
+  font-family: "Outfit", Sans-Serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--WengeBrown);
+  margin: 1em 0em 1em 0em;
 }
 
 h1,
 h2 {
-	font-family: 'Young Serif', Sans-Serif;
+  font-family: "Young Serif", Sans-Serif;
 }
 
 h1 {
-	font-size: 2.5rem;
-	font-weight: 500;
-	line-height: 2.5rem;
-	color: var(--DarkCharcoal);
+  font-size: 2.5rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  color: var(--DarkCharcoal);
+  margin-bottom: 1em;
 }
 
 h2 {
-	font-size: 2rem;
-	font-weight: 500;
-	color: var(--Nutmeg);
-	margin-bottom: 0.75em;
+  font-size: 2rem;
+  font-weight: 500;
+  color: var(--Nutmeg);
+  margin-bottom: 0.5em;
+  margin-top: 1em;
 }
 
-hr {
-	margin: 1em 0em 1em 0em;
-	border: 1px solid var(--LightGrey);
-	opacity: 0.5;
-}
 li,
 td {
-	font-size: 1rem;
+  font-size: 1rem;
 }
 
 .prepBox {
-	background-color: var(--RoseWhite);
-	margin: 1em 0em 1em 0em;
-	padding-left: 1.5em;
-	padding-bottom: 1em;
-	border-radius: 10px;
+  background-color: var(--RoseWhite);
+  margin: 1em 0em 1em 0em;
+  padding-left: 1.5em;
+  padding-bottom: 0.5em;
+  border-radius: 10px;
+}
+
+.prepBox ul {
+  border-bottom: none;
+  padding-bottom: 0;
 }
 
 .prepBox P {
-	color: var(--DarkRaspberry);
-	font-weight: 700;
-	font-size: 1.5rem;
-	padding-top: 1em;
+  color: var(--DarkRaspberry);
+  font-weight: 700;
+  font-size: 1.5rem;
+  padding-top: 1em;
 }
 
 ol,
 ul {
-	margin-left: 1em;
-	margin-right: 2em;
+  margin-left: 1em;
+  margin-right: 2em;
+  border-bottom: 1px solid rgba(228, 222, 216, 1);
+  padding-bottom: 1.5em;
+}
+
+ul:nth-child(1) {
+  border-bottom: none;
 }
 
 .prepBox li {
-	margin: 1em;
-	padding-left: 2em;
-	font-size: 1.1rem;
-	font-weight: 500;
+  margin: 1em;
+  padding-left: 2em;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .prepBox li::marker {
-	color: var(--DarkRaspberry);
+  color: var(--DarkRaspberry);
 }
 
+.Ingredients li {
+  padding-left: 1em;
+  margin: 0.5em 1em;
+}
 .Ingredients li::marker {
   color: var(--Nutmeg);
 }
@@ -90,56 +102,103 @@ ul {
   color: var(--Nutmeg);
   font-weight: 700;
 }
-span {
-	font-weight: 700;
+
+.Instructions li {
+  padding-left: 1em;
+  margin: 0.5em;
 }
+
+.Instructions ol {
+  margin-right: 0em;
+  margin-bottom: 2em;
+}
+
+table {
+  padding-left: 2em;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  padding-right: 0.5em;
+  text-align: start;
+  padding: 1em;
+  font-weight: 500;
+  width: 50%;
+}
+
+td {
+  font-weight: 700;
+  color: var(--Nutmeg);
+}
+tr {
+  border-bottom: 1px solid rgba(228, 222, 216, 1);
+}
+
+tr:nth-child(4) {
+  border-bottom: none;
+}
+
+span {
+  font-weight: 700;
+}
+
 * {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
-	background-color: var(--Eggshell);
-	font-family: 'Outfit', Sans-Serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--Eggshell);
+  font-family: "Outfit", Sans-Serif;
 }
 
 .container {
-	background-color: var(--White);
-	padding: 2.75em;
-	display: flex;
-	flex-direction: column;
-	height: 100%;
+  background-color: white;
+  padding: 2em 2.75em;
+  display: flex;
+  flex-direction: column;
+  margin: 5em 20em;
+  border-radius: 15px;
 }
 
 img {
-	width: 100%;
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 2em;
 }
 /*
 Footer items 
 */
 
 #Footer P {
-	color: var(--White);
-	font-size: 14px;
-	font-weight: 700;
+  color: var(--White);
+  font-size: 14px;
+  font-weight: 700;
+  margin: 5px;
 }
 
 Footer {
-	margin-top: auto;
-	width: 100%;
-	text-align: center;
-	background-color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: center;
+  background-color: black;
 }
 
 Footer a {
-	color: #00ff00;
-	text-decoration: none;
+  color: #00ff00;
+  text-decoration: none;
 }
 
 Footer a:hover {
-	color: #ff9c6c;
+  color: #ff9c6c;
+}
+
+#Footer {
+  margin: 0;
 }
