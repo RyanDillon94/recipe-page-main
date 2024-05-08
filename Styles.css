@@ -166,6 +166,31 @@ body {
   border-radius: 15px;
 }
 
+@media (max-width: 950px) {
+  .container {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    padding: 0em 2.6em 2em 2.6em;
+  }
+
+  .container img {
+    padding: 0;
+    transform: scale(125%);
+    top: 0;
+    left: 0;
+    border-radius: 0;
+  }
+
+  header {
+    margin-top: 2em;
+  }
+  :root {
+    font-size: 16px;
+  }
+}
+
 img {
   width: 100%;
   border-radius: 15px;
